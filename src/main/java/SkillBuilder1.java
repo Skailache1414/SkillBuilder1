@@ -20,7 +20,7 @@ public class SkillBuilder1 {
         System.out.println("Well " + friendName + ",the spice value resulted in " + equt);
 
         double newNumber = Math.round (equt*100.0)/100.0;
-        System.out.println("And the converted value is ");
+        System.out.println("And the converted value is " + newNumber);
 
 
 
