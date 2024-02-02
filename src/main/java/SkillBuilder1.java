@@ -17,7 +17,7 @@ public class SkillBuilder1 {
         double spice = input.nextDouble();
 
         double equt = (4.0/3.0)*Math.pow (2, Math.sqrt (5)/Math.pow(spice, 3));
-        System.out.println("Well" + friendName + ",the spice value resulted in " + equt);
+        System.out.println("Well " + friendName + ",the spice value resulted in " + equt);
 
         double newNumber = Math.round (equt*100.0)/100.0;
         System.out.println("And the converted value is ");
