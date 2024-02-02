@@ -43,10 +43,10 @@ public class SkillBuilder1 {
         double wallWidth = input.nextDouble();
 
         double wallArea = wallHeight*wallWidth;
-        System.out.println("Wall area:"+ wallArea + " square feet");
+        System.out.println("Wall area: "+ wallArea + " square feet");
 
         double paintPaint = wallArea/squareFeetPerGallons;
-        System.out.printf("Paint needed: %.2f gallons/n", paintPaint);
+        System.out.printf("Paint needed: %.2f gallons\n", paintPaint);
 
         int paintCan = (int)Math.ceil(gallonsPerCan*paintPaint);
         System.out.println("Cans needed:" + paintCan + "can(s)");
